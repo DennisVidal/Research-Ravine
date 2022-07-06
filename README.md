@@ -8,3 +8,19 @@ The terrain itself uses a isosurface extraction method called [Dual Marchin Cube
 Although performance-wise the terrain generation is acceptable for the most part, there are two major problems with my implementation.
 One being the readback of the generated chunk mesh data. While the whole mesh generation is relatively fast, there is still a noticable delay thanks to the asynchronous nature of the readback. This occasionally leads to situations where updates to the LOD level of the terrain are quite noticable.
 The second major problem is the seam mesh generation. Although it works similarly well to the generation of the actual chunk meshes, there are relatively rare but still existing instances where triangles in the seam mesh are not generated correctly, which in turn leads to holes in the terrain. Instead, a perhaps better approach could be the adaption of the method used in [Lengyel's Transvoxel algorithm](https://transvoxel.org/Lengyel-VoxelTerrain.pdf "Website of the Transvoxel algorithm").
+
+
+
+![Screenshot 1 of Research Ravine](https://github.com/DennisVidal/Research-Ravine/blob/main/Screenshots/Screenshot1.png)
+
+![Screenshot 2 of Research Ravine](https://github.com/DennisVidal/Research-Ravine/blob/main/Screenshots/Screenshot2.png)
+
+![Screenshot 3 of Research Ravine](https://github.com/DennisVidal/Research-Ravine/blob/main/Screenshots/Screenshot3.png)
+
+![Screenshot 4 of Research Ravine](https://github.com/DennisVidal/Research-Ravine/blob/main/Screenshots/Screenshot4.png)
+
+![Screenshot 5 of Research Ravine](https://github.com/DennisVidal/Research-Ravine/blob/main/Screenshots/Screenshot5.png)
+
+![Screenshot 6 of Research Ravine](https://github.com/DennisVidal/Research-Ravine/blob/main/Screenshots/Screenshot6.png)
+
+![Screenshot 7 of Research Ravine](https://github.com/DennisVidal/Research-Ravine/blob/main/Screenshots/Screenshot7.png)
