@@ -1,4 +1,7 @@
 # Research-Ravine
+
+[![Youtube thumbnail of Research Ravine](https://user-images.githubusercontent.com/75141542/178417689-9e593c97-8411-42ea-982d-758e8cb728f3.png)](https://www.youtube.com/watch?v=Yi5lOAzYwzY "Research Ravine Gameplay")
+
 This project is the result of my master thesis about noise-based generation of 3D worlds for a VR flight simulation. The main goal was the creation of a VR game with a mostly procedurally generated world. To offer a more immersive experience for the players an [Icaros](https://www.icaros.com/en/products/icaros-pro "Website of Icaros") system is used. This allows players to control their virtual movements by shifting their point of gravity on the Icaros.
 
 The overall story is set in a desert on a mostly unexplored planet. The player is part of a research/mining operation with the goal to collect mineral samples. The overall goal of the game is to collect as many samples as possible while flying through the randomly generated terrain. The main way of collecting samples is by being in proximity of the terrain. The longer and faster the player flys closely along the terrain the more samples they gather. Alternatively, the player can pick up certain items to increase their score.
